@@ -10,7 +10,6 @@ export default function Home() {
       <section>
         <h1>Page</h1>
       </section>
-      <Image alt="hello" src="/images/nextjs.png" width={200} height={200} />
     </div>
   );
 }
