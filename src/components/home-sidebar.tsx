@@ -1,12 +1,16 @@
 import React from "react";
 
-export default function HomeSidebar() {
+export default function HomeSidebar({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
-    <main className="flex mx-auto max-w-6xl">
-      <section className="min-h-screen bg-black text-white">
+    <main className="flex">
+      <section className="w-1/4 min-h-screen bg-black text-white">
         home-sidebar
       </section>
-      <nav className="bg-slate-500">Home Menu</nav>
+      <nav className="w-3/4 max-h-screen bg-slate-500">{children}</nav>
     </main>
   );
 }
