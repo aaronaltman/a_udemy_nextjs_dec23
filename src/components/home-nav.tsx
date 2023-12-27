@@ -22,7 +22,7 @@ const menuItems = [
 export default function HomeNav() {
   return (
     <nav>
-      <ul className="flex bg-slate-50 justify-center p-4 gap-10">
+      <ul className="flex bg-slate-50 justify-center p-4 gap-10 shadow-sm border-black/10">
         {menuItems.map((item) => (
           <li key={item.name}>
             <a href={item.path}>{item.name}</a>
