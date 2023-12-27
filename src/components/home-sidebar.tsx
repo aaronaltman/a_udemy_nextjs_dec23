@@ -8,9 +8,9 @@ export default function HomeSidebar({
   return (
     <main className="flex">
       <section className="w-1/4 min-h-screen bg-black text-white">
-        home-sidebar
+        <h1 className="p-4 text-xl">Sidebar</h1>
       </section>
-      <nav className="w-3/4 max-h-screen bg-slate-500">{children}</nav>
+      <div className="w-3/4 max-h-screen bg-slate-500">{children}</div>
     </main>
   );
 }
